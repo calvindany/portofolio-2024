@@ -2,6 +2,7 @@
 
 import Experience from "./_parts/experience";
 import Hero from "./_parts/hero";
+import Projects from "./_parts/projects";
 import TechStack from "./_parts/techstack";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <TechStack />
       <Experience />
+      <Projects />
     </>
   );
 };
