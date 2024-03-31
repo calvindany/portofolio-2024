@@ -4,13 +4,15 @@ import React from "react";
 import { Card, CardContent, Typography, Box, Pagination } from "@mui/material";
 
 import { ChakraPetch } from "../Fonts";
+import { useScreenDetector } from "@/hooks";
 
 const ExperienceCard = ({ datas = [] }) => {
+  const { isTablet } = useScreenDetector();
   const renderData = datas.length > 0 ? datas : [];
   const sortedData = [...datas].sort((a, b) => b.highlight - a.highlight);
 
   const [currentPage, setCurrentPage] = React.useState(1);
-  const itemsPerPage = 2;
+  const itemsPerPage = isTablet() ? 1 : 2;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = sortedData.slice(indexOfFirstItem, indexOfLastItem);
@@ -21,7 +23,7 @@ const ExperienceCard = ({ datas = [] }) => {
 
   return (
     <>
-      <Box className="grid grid-cols-2 justify-items-center gap-8 px-32 bg-transparent mb-12">
+      <Box className="grid lg:grid-cols-2 justify-items-center gap-8 md:px-36 lg:px-32 bg-transparent mb-12 w-full">
         {currentItems.map((data, index) => (
           <Card
             className="p-1 border-2 border-highlight rounded-xl"
