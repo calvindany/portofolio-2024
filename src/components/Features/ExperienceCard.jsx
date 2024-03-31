@@ -21,7 +21,7 @@ const ExperienceCard = ({ datas = [] }) => {
 
   return (
     <>
-      <Box className="grid grid-cols-2 justify-items-center gap-8 px-32 bg-transparent mb-4">
+      <Box className="grid grid-cols-2 justify-items-center gap-8 px-32 bg-transparent mb-12">
         {currentItems.map((data, index) => (
           <Card
             className="p-1 border-2 border-highlight rounded-xl"
