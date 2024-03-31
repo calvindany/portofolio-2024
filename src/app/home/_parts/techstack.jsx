@@ -7,7 +7,7 @@ import { TechStack as ts } from "@/datas";
 const TechStack = () => {
   return (
     <>
-      <Box className="h-[100vh] flex flex-col justify-center">
+      <Box className="min-h-[100vh] flex flex-col justify-center">
         <SectionHeader title="Technology Stack" className="mb-12">
           This technology stack consists of a combination of programming
           languages, frameworks, libraries, and databases that collectively form

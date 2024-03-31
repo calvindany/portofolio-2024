@@ -9,7 +9,7 @@ import { ChakraPetch, Poppins } from "@/components/Fonts";
 const Hero = () => {
   return (
     <>
-      <Box className="flex flex-col gap-[10px] justify-center h-[100vh]">
+      <Box className="flex flex-col gap-[10px] justify-center min-h-[100vh]">
         <Typography
           variant="h1"
           className={`${ChakraPetch.ChakraPetchBold.className} text-large text-default`}

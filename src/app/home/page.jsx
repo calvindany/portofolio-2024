@@ -1,4 +1,5 @@
 "use client";
+import { Box } from "@mui/material";
 
 import Experience from "./_parts/experience";
 import Hero from "./_parts/hero";
@@ -12,6 +13,7 @@ const Home = () => {
       <TechStack />
       <Experience />
       <Projects />
+      <Box className="mb-8"></Box>
     </>
   );
 };

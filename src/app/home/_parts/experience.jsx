@@ -6,7 +6,7 @@ import { Experiences } from "@/datas";
 const Experience = () => {
   return (
     <>
-      <Box className="h-[100vh] flex flex-col justify-center">
+      <Box className="min-h-[100vh] flex flex-col justify-center">
         <SectionHeader title="Experience" className="mb-12">
           Throughout my life journey, I have participated in various events that
           have provided me with opportunities to develop myself in terms of both
