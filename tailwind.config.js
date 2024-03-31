@@ -12,15 +12,15 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      fontSize: {
-        "text-small": "14px",
-        "text-cmedium": "20px",
-        "text-large": "32px",
-      },
-      textColor: {
-        "text-default": "#F8F7F9",
-        "text-highlight": "#FFA500",
-      },
+    },
+    fontSize: {
+      small: "14px",
+      medium: "20px",
+      large: "32px",
+    },
+    colors: {
+      default: "#F8F7F9",
+      highlight: "#FFA500",
     },
   },
   plugins: [],
