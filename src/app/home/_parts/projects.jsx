@@ -36,7 +36,7 @@ const Projects = () => {
           web-based applications. Below is a compilation of the applications
           I've worked on in the past.
         </SectionHeader>
-        <Box className="flex items-center flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-6 w-full">
+        <Box className="flex items-center flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-8 w-full">
           {projects.map((project, index) => (
             <Link
               href="#"
