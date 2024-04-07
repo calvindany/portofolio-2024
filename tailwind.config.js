@@ -17,6 +17,7 @@ module.exports = {
       small: "14px",
       medium: "20px",
       large: "32px",
+      vlarge: "40px",
     },
     colors: {
       default: "#F8F7F9",
