@@ -12,7 +12,7 @@ const Hero = ({ title, description, website, github, thumbnail }) => {
   return (
     <>
       <Box className="flex flex-col lg:flex-row justify-center lg:justify-between lg:items-center lg:flex-2 min-h-[100vh] gap-10">
-        <Box className="flex flex-col justify-between w-[50%]">
+        <Box className="flex flex-col justify-between lg:w-[50%]">
           <Typography
             variant="h1"
             className={`${ChakraPetch.ChakraPetchBold.className} text-vlarge text-highlight mb-4`}
@@ -52,7 +52,7 @@ const Hero = ({ title, description, website, github, thumbnail }) => {
             </Link>
           </Box>
         </Box>
-        <Box>
+        <Box className="flex justify-center items-center">
           <Image
             src={thumbnail.path}
             alt={thumbnail.alt}

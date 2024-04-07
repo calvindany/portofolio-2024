@@ -22,8 +22,8 @@ const ProjectsDetails = [
     thumbnail: {
       path: "/rozaline1.png",
       alt: "Rozaline Home Page",
-      width: "429px",
-      height: "241px",
+      width: "550px",
+      height: "309.22px",
     },
     galery: [
       {
