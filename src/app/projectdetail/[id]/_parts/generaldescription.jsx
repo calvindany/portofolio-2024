@@ -7,7 +7,7 @@ const GeneralDescription = ({ description1, description2, tech }) => {
   return (
     <>
       <Box className="grid grid-cols-1 min-h-[100vh] items-center">
-        <Box class="grid grid-cols-2 items-start gap-32">
+        <Box className="grid grid-cols-2 items-start gap-32">
           <Box className="grid grid-cols-1 gap-4">
             <Typography
               variant="h2"
