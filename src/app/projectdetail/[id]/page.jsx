@@ -6,6 +6,7 @@ import Hero from "./_parts/hero";
 import GeneralDescription from "./_parts/generaldescription";
 
 import { ProjectsDetail } from "@/datas";
+import ProjectOverview from "./_parts/projectoverview";
 
 const ProjectDetail = ({ params }) => {
   const [project, setProject] = React.useState({
@@ -17,6 +18,7 @@ const ProjectDetail = ({ params }) => {
     desc2: "",
     techstack: [],
     thumbnail: "",
+    galery: [],
   });
 
   React.useEffect(() => {
@@ -59,6 +61,7 @@ const ProjectDetail = ({ params }) => {
         description2={project.desc2}
         tech={project.techstack}
       />
+      <ProjectOverview galery={project.galery} />
     </>
   );
 };

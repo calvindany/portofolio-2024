@@ -28,16 +28,19 @@ const ProjectsDetails = [
     galery: [
       {
         path: "/rozaline1.png",
-        width: "150px",
+        alt: "Rozaline Home Page",
+        width: "550px",
         height: "309.22px",
       },
       {
         path: "/rozaline2.png",
+        alt: "Rozaline Galery Page",
         width: "550px",
         height: "309.22px",
       },
       {
         path: "/rozaline3.png",
+        alt: "Rozaline Detail Page",
         width: "550px",
         height: "309.22px",
       },
