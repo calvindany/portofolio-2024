@@ -141,6 +141,50 @@ const ProjectsDetails = [
       },
     ],
   },
+  {
+    title: "Indo Maju",
+    description:
+      "This application is an e-commerce application focused on a small and medium-sized building materials store called TB. Indo Maju located in Indonesia.",
+    website: "https://indomaju.cyclic.app/",
+    github: "",
+    desc1:
+      "Users can purchase building materials through this application. There is also an admin feature where the admin can manage product data, transactions with distributors, and purchases made by users.",
+    desc2:
+      "This application is an MVC (Model-View-Controller) model application developed individually.",
+    techstack: ["Node JS", "Javascript", "EJS", "MongoDB", "Mongoose"],
+    thumbnail: {
+      path: "/indomaju1.png",
+      alt: "Indo Maju Home page",
+      width: "550px",
+      height: "309.22px",
+    },
+    galery: [
+      {
+        path: "/indomaju1.png",
+        alt: "Home Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/indomaju2.png",
+        alt: "Product Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/indomaju3.png",
+        alt: "Login Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/indomaju4.png",
+        alt: "Sign Up Page",
+        width: "550px",
+        height: "309.22px",
+      },
+    ],
+  },
 ];
 
 export default ProjectsDetails;
