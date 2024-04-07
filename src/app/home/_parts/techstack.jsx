@@ -15,19 +15,18 @@ const TechStack = () => {
         </SectionHeader>
         <Box className="flex flex-wrap justify-center gap-12 items-center w-full">
           {ts.map((image, index) => (
-            <>
-              <Image
-                src={image.path}
-                alt={`TechStack Image ${index}`}
-                width={200}
-                height={100}
-                style={{
-                  width: image.width,
-                  height: image.height,
-                }}
-                priority
-              />
-            </>
+            <Image
+              src={image.path}
+              alt={`TechStack Image ${index}`}
+              width={200}
+              height={100}
+              style={{
+                width: image.width,
+                height: image.height,
+              }}
+              priority
+              key={index}
+            />
           ))}
         </Box>
       </Box>
