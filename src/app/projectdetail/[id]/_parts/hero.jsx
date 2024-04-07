@@ -35,11 +35,12 @@ const Hero = ({ title, description, website, github, thumbnail }) => {
                   ? "pointer-events-none opacity-50"
                   : ""
               } `}
+              target="_blank"
             >
               <LanguageIcon className="text-default" /> Website
             </Link>
             <Link
-              href={website}
+              href={github}
               className={`${
                 Poppins.PoppinsNormal.className
               } text-default flex items-center gap-2 ${
@@ -47,6 +48,7 @@ const Hero = ({ title, description, website, github, thumbnail }) => {
                   ? "pointer-events-none opacity-50"
                   : ""
               }`}
+              target="_blank"
             >
               <GitHubIcon className="text-default" /> Github
             </Link>
