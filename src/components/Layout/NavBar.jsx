@@ -7,7 +7,7 @@ function NavBar() {
     <>
       <Container
         maxWidth="xl"
-        className="fixed"
+        className="fixed hidden md:block"
         sx={{
           background: "linear-gradient(to right, #001f3f, #003366)",
         }}
