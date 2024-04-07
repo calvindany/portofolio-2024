@@ -17,7 +17,7 @@ const Projects = () => {
         <Box className="flex items-center flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-8 w-full">
           {p.map((project, index) => (
             <Link
-              href="#"
+              href={project.navigation}
               aria-label={project.alt}
               key={index}
               className="w-fit"
