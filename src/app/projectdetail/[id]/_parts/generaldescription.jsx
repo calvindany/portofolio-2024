@@ -39,6 +39,7 @@ const GeneralDescription = ({ description1, description2, tech }) => {
               {tech.map((techname, index) => (
                 <Box
                   className={`${ChakraPetch.ChakraPetchBold.className} w-fit bg-[#243881] p-2 text-default text-medium rounded-md`}
+                  key={index}
                 >
                   {techname}
                 </Box>

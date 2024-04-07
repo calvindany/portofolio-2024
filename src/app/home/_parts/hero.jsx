@@ -14,7 +14,7 @@ const Hero = () => {
           variant="h1"
           className={`${ChakraPetch.ChakraPetchBold.className} text-large text-default`}
         >
-          Hi! I'm, <span className="text-highlight">Calvin Danyalson</span>
+          Hi! I&apos;m, <span className="text-highlight">Calvin Danyalson</span>
         </Typography>
 
         <Typography

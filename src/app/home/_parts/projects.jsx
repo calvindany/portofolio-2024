@@ -10,9 +10,9 @@ const Projects = () => {
     <>
       <Box className="flex flex-col justify-center items-center min-h-[100vh]">
         <SectionHeader title="Projects" className="mb-10">
-          During my progression as a web developer, I've crafted a number of
-          web-based applications. Below is a compilation of the applications
-          I've worked on in the past.
+          During my progression as a web developer, I&apos;ve crafted a number
+          of web-based applications. Below is a compilation of the applications
+          I&apos;ve worked on in the past.
         </SectionHeader>
         <Box className="flex items-center flex-col md:flex-row md:flex-wrap md:justify-center gap-4 md:gap-8 w-full">
           {p.map((project, index) => (
