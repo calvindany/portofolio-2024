@@ -3,6 +3,7 @@
 import React from "react";
 
 import Hero from "./_parts/hero";
+import GeneralDescription from "./_parts/generaldescription";
 
 import { ProjectsDetail } from "@/datas";
 
@@ -52,6 +53,11 @@ const ProjectDetail = ({ params }) => {
         github={project.github}
         thumbnail={project.thumbnail}
         alt={project.alt}
+      />
+      <GeneralDescription
+        description1={project.desc1}
+        description2={project.desc2}
+        tech={project.techstack}
       />
     </>
   );
