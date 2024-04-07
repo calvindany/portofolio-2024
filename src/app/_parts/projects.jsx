@@ -8,7 +8,10 @@ import { Projects as p } from "@/datas";
 const Projects = () => {
   return (
     <>
-      <Box className="flex flex-col justify-center items-center min-h-[100vh]">
+      <Box
+        id="projects"
+        className="flex flex-col justify-center items-center min-h-[100vh]"
+      >
         <SectionHeader title="Projects" className="mb-10">
           During my progression as a web developer, I&apos;ve crafted a number
           of web-based applications. Below is a compilation of the applications
