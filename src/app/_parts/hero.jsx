@@ -3,6 +3,7 @@
 import { Box, Typography, Link } from "@mui/material";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHub from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 
 import { ChakraPetch, Poppins } from "@/components/Fonts";
 
@@ -34,6 +35,13 @@ const Hero = () => {
             className={`${Poppins.PoppinsMedium.className} text-default flex items-center gap-2`}
           >
             <LinkedInIcon className="text-default" /> Calvin Danyalson
+          </Link>
+
+          <Link
+            href="mailto:calvindanyalson@gmail.com"
+            className={`${Poppins.PoppinsMedium.className} text-default flex items-center gap-2`}
+          >
+            <EmailIcon className="text-default" /> calvindanyalson@gmail.com
           </Link>
 
           <Link
