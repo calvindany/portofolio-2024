@@ -15,7 +15,7 @@ const Experiences = [
     monthStart: "Feb 2023",
     monthEnd: "Jul 2023",
     description:
-      "Creating an informational system that provides learning resources about various types of flora ",
+      "Conducting a lesson about the cloud service features available on the Google Cloud Platform and the basics of backend application using HapiJS and ExpressJS.",
     hide: false,
     highlight: false,
   },
@@ -25,7 +25,7 @@ const Experiences = [
     monthStart: "Mar 2022",
     monthEnd: "Present",
     description:
-      "Creating an informational system that provides learning resources about various types of flora ",
+      "Conducting workshops and performing computer maintenance at Gunadarma University's laboratory.",
     hide: false,
     highlight: false,
   },
@@ -35,7 +35,7 @@ const Experiences = [
     monthStart: "Nov 2023",
     monthEnd: "Present",
     description:
-      "Creating an informational system that provides learning resources about various types of flora ",
+      "Creating new features based on design and enhancing website performance using React JS and .NET Framework, revamping website UI using Laravel, and collaborating in teams using the Scrum (Agile) Method.",
     hide: false,
     highlight: true,
   },
@@ -45,7 +45,7 @@ const Experiences = [
     monthStart: "Feb 2023",
     monthEnd: "Jan 2024",
     description:
-      "Creating an informational system that provides learning resources about various types of flora ",
+      "Conducting programming coaching sessions using the JavaScript programming language to solve problems using algorithms. Serving as a liaison between the classroom and academic department, ensuring participants can complete the final project according to the given requirements. Deploying React JS applications and .NET Core APIs from bootcamp participants' final projects on an IIS server.",
     hide: false,
     highlight: true,
   },
