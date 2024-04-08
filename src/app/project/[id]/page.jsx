@@ -1,12 +1,13 @@
 "use client";
 
 import React from "react";
+import { Box } from "@mui/material";
 
 import Hero from "./_parts/hero";
 import GeneralDescription from "./_parts/generaldescription";
+import ProjectOverview from "./_parts/projectoverview";
 
 import { ProjectsDetail } from "@/datas";
-import ProjectOverview from "./_parts/projectoverview";
 
 const ProjectDetail = ({ params }) => {
   const [project, setProject] = React.useState({
@@ -62,6 +63,7 @@ const ProjectDetail = ({ params }) => {
         tech={project.techstack}
       />
       <ProjectOverview galery={project.galery} />
+      <Box className="mb-8"></Box>
     </>
   );
 };
