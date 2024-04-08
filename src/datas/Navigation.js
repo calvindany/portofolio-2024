@@ -8,12 +8,12 @@ const Navigation = [
     url: "/#techskills",
   },
   {
-    name: "Projects",
-    url: "/#projects",
+    name: "Experience",
+    url: "/#experience",
   },
   {
-    name: "Contact",
-    url: "#",
+    name: "Projects",
+    url: "/#projects",
   },
 ];
 
