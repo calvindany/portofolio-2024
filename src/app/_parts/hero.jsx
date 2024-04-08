@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <Box
         id="introduction"
-        className="flex flex-col gap-[10px] justify-center min-h-[100vh]"
+        className="flex flex-col gap-[15px] md:gap-[10px] justify-center min-h-[100vh]"
       >
         <Typography
           variant="h1"
@@ -29,7 +29,7 @@ const Hero = () => {
           learn something new when if it is comes to software engineer
         </Typography>
 
-        <Box className="flex gap-8">
+        <Box className="flex flex-col md:flex-row gap-y-[10px] gap-x-8">
           <Link
             href="https://www.linkedin.com/in/calvin-danyalson-a87295234/"
             className={`${Poppins.PoppinsMedium.className} text-default flex items-center gap-2`}
