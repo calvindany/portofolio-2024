@@ -9,14 +9,14 @@ const TechStack = () => {
     <>
       <Box
         id="techskills"
-        className="min-h-[100vh] flex flex-col justify-center"
+        className="min-h-[100vh] flex flex-col justify-center items-center"
       >
         <SectionHeader title="Technology Stack" className="mb-12">
           This technology stack consists of a combination of programming
           languages, frameworks, libraries, and databases that collectively form
           the foundation of my development process
         </SectionHeader>
-        <Box className="flex flex-wrap justify-center gap-12 items-center w-full">
+        <Box className="flex flex-wrap justify-center gap-12 items-center w-[70%]">
           {ts.map((image, index) => (
             <Image
               src={image.path}

@@ -30,9 +30,19 @@ const TechStack = [
     height: "51px",
   },
   {
+    path: "/image 8.png",
+    width: "100px",
+    height: "100px",
+  },
+  {
     path: "/image 7.png",
     width: "89px",
     height: "85px",
+  },
+  {
+    path: "/image 9.png",
+    width: "100px",
+    height: "51.52px",
   },
 ];
 
