@@ -44,7 +44,7 @@ const Hero = ({ title, description, website, github, thumbnail }) => {
               className={`${
                 Poppins.PoppinsNormal.className
               } text-default flex items-center gap-2 ${
-                website == "" || website == null
+                github == "" || github == null
                   ? "pointer-events-none opacity-50"
                   : ""
               }`}

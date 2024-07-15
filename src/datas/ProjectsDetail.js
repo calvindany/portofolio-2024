@@ -146,39 +146,39 @@ const ProjectsDetails = [
     description:
       "This application is an e-commerce application focused on a small and medium-sized building materials store called TB. Indo Maju located in Indonesia.",
     website: "https://indomaju.cyclic.app/",
-    github: "",
+    github: "https://github.com/calvindany/stockedge-app",
     desc1:
       "Users can purchase building materials through this application. There is also an admin feature where the admin can manage product data, transactions with distributors, and purchases made by users.",
     desc2:
       "This application is an MVC (Model-View-Controller) model application developed individually.",
     techstack: ["Node JS", "Javascript", "EJS", "MongoDB", "Mongoose"],
     thumbnail: {
-      path: "/indomaju1.png",
+      path: "/indomaju1.PNG",
       alt: "Indo Maju Home page",
       width: "550px",
       height: "309.22px",
     },
     galery: [
       {
-        path: "/indomaju1.png",
+        path: "/indomaju1.PNG",
         alt: "Home Page",
         width: "550px",
         height: "309.22px",
       },
       {
-        path: "/indomaju2.png",
+        path: "/indomaju2.PNG",
         alt: "Product Page",
         width: "550px",
         height: "309.22px",
       },
       {
-        path: "/indomaju3.png",
+        path: "/indomaju3.PNG",
         alt: "Login Page",
         width: "550px",
         height: "309.22px",
       },
       {
-        path: "/indomaju4.png",
+        path: "/indomaju4.PNG",
         alt: "Sign Up Page",
         width: "550px",
         height: "309.22px",
