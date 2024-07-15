@@ -22,7 +22,7 @@ const GeneralDescription = ({ description1, description2, tech }) => {
               {description1}
             </Typography>
             <Typography
-              variant="h2"
+              variant="body1"
               className={`${Poppins.PoppinsMedium.className} text-medium text-default`}
             >
               {description2}
