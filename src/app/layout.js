@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/tabs.ico" sizes="any" />
-      <body>
+      <body style={{scrollBehavior: 'smooth'}}>
         <Container maxWidth="xl">
           <NavBar />
           {children}

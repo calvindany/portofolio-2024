@@ -6,6 +6,10 @@ body {
   background: linear-gradient(to right, #001f3f, #003366);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
