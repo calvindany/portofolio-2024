@@ -8,8 +8,8 @@ const TechStack = () => {
   return (
     <>
       <Box
-        id="techskills"
-        className="flex flex-col justify-center items-center my-32"
+        
+        className="flex flex-col justify-center items-center"
       >
         <SectionHeader title="Technology Stack" className="mb-12">
           This technology stack consists of a combination of programming

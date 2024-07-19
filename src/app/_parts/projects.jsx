@@ -9,8 +9,7 @@ const Projects = () => {
   return (
     <>
       <Box
-        id="projects"
-        className="flex flex-col justify-center items-center my-32"
+        className="flex flex-col justify-center items-center"
       >
         <SectionHeader title="Projects" className="mb-10">
           During my progression as a web developer, I&apos;ve crafted a number
