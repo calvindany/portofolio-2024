@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.list-circle {
+  list-style-type: circle;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
