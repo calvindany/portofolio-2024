@@ -10,10 +10,16 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <TechStack />
-      <Experience />
-      <Projects />
-      <Box className="mb-8"></Box>
+      <div className="py-32" id="techskills">
+        <TechStack />
+      </div>
+      <div className="py-32" id="experience" >
+        <Experience />
+      </div>
+      <div className="py-32" id="projects">
+        <Projects />
+      </div>
+      <Box className="mb-32"></Box>
     </>
   );
 };
