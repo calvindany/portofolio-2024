@@ -9,7 +9,7 @@ const TechStack = () => {
     <>
       <Box
         id="techskills"
-        className="min-h-[100vh] flex flex-col justify-center items-center"
+        className="flex flex-col justify-center items-center my-32"
       >
         <SectionHeader title="Technology Stack" className="mb-12">
           This technology stack consists of a combination of programming

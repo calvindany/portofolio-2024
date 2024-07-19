@@ -8,7 +8,7 @@ const Experience = () => {
     <>
       <Box
         id="experience"
-        className="min-h-[100vh] flex flex-col justify-center"
+        className="my-32 flex flex-col justify-center"
       >
         <SectionHeader title="Experience" className="mb-12">
           Throughout my life journey, I have participated in various events that
