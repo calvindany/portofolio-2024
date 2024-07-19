@@ -1,13 +1,31 @@
+
+import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import { Box } from "@mui/material";
+import { Box, Backdrop, CircularProgress } from "@mui/material";
 
 import { SectionHeader } from "@/components/Features";
 import { Projects as p } from "@/datas";
 
 const Projects = () => {
+  const [open, setOpen] = React.useState(false);
+
+  const handleLoading = () => {
+    setOpen(true);
+
+    setTimeout(() => {
+      setOpen(false);
+    }, 5000)
+  }
+
   return (
     <>
+      <Backdrop
+          sx={{ color: '#fff', zIndex: "9999"}}
+          open={open}
+        >
+          <CircularProgress color="inherit" />
+      </Backdrop>
       <Box
         className="flex flex-col justify-center items-center"
       >
@@ -23,6 +41,7 @@ const Projects = () => {
               aria-label={project.alt}
               key={index}
               className="w-fit"
+              onClick={handleLoading}
             >
               <Image
                 src={project.path}
