@@ -247,6 +247,92 @@ const ProjectsDetails = [
       },
     ],
   },
+  {
+    title: "Wedding Organizer",
+    description:
+      "This application is a service provider for organizing wedding celebrations",
+    website: "",
+    github: "https://github.com/calvindany/wedding-organizer",
+    desc1:
+      "E-commerce platform that provides services for wedding celebrations, which can be booked by users. The booking process involves scheduling with the service provider's admin.",
+    desc2:
+      "This application is built individually and provides CRUD features for the admin, such as adding catalogs, managing orders, and more.",
+    techstack: ["PHP Native", "MySQL", "Summernot"],
+    thumbnail: {
+      path: "/wo1.PNG",
+      alt: "Wedding Organizer Home page",
+      width: "550px",
+      height: "309.22px",
+    },
+    galery: [
+      {
+        path: "/wo1.PNG",
+        alt: "User Home Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo2.PNG",
+        alt: "User Home Page - Catalogue Section",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo3.PNG",
+        alt: "About Me Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo4.PNG",
+        alt: "About Me Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo5.PNG",
+        alt: "About Me Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo6.PNG",
+        alt: "Login Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo7.PNG",
+        alt: "Catalogue Admin Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo8.PNG",
+        alt: "Order Admin Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo9.PNG",
+        alt: "Report Admin Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo10.PNG",
+        alt: "Website Settings Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/wo11.PNG",
+        alt: "Profile Admin Page",
+        width: "550px",
+        height: "309.22px",
+      },
+    ],
+  },
 ];
 
 export default ProjectsDetails;

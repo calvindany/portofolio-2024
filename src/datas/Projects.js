@@ -21,9 +21,16 @@ const Projects = [
     height: "309.38px",
   },
   {
-    path: "/mytripmemo.png",
+    path: "/mytripmemo.PNG",
     navigation: "/project/4",
     alt: "My Trip Memo",
+    width: "550px",
+    height: "609.38px",
+  },
+  {
+    path: "/wo.PNG",
+    navigation: "/project/5",
+    alt: "Wedding Organizer",
     width: "550px",
     height: "609.38px",
   },
