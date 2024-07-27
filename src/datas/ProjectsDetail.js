@@ -185,6 +185,68 @@ const ProjectsDetails = [
       },
     ],
   },
+  {
+    title: "My Trip Memo",
+    description:
+      "This application is a blog application that records a person's travel journal and displays it for others to read.",
+    website: "",
+    github: "https://github.com/calvindany/my-trip-memo",
+    desc1:
+      "This application represents a personal blog with only one admin, who is the blog owner. Users other than the owner can view the owner's journal entries through the home page.",
+    desc2:
+      "This application is an MVC (Model-View-Controller) model application developed by a team of two people.",
+    techstack: ["Code Igniter 4", "MySQL", "Summernote"],
+    thumbnail: {
+      path: "/mytripmemo1.PNG",
+      alt: "My Trip Memo Home page",
+      width: "550px",
+      height: "309.22px",
+    },
+    galery: [
+      {
+        path: "/mytripmemo1.PNG",
+        alt: "User Home Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo2.PNG",
+        alt: "User Home Page - Jurney Section",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo3.PNG",
+        alt: "Travel Memo Detail",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo4.PNG",
+        alt: "Login Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo5.PNG",
+        alt: "Admin Home Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo6.PNG",
+        alt: "Add New Memo Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/mytripmemo7.PNG",
+        alt: "Edit Memo Page",
+        width: "550px",
+        height: "309.22px",
+      },
+    ],
+  },
 ];
 
 export default ProjectsDetails;
