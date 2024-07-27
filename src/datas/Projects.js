@@ -20,6 +20,13 @@ const Projects = [
     width: "550px",
     height: "309.38px",
   },
+  {
+    path: "/mytripmemo.png",
+    navigation: "/project/4",
+    alt: "My Trip Memo",
+    width: "550px",
+    height: "609.38px",
+  },
 ];
 
 export default Projects;
