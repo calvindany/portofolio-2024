@@ -41,7 +41,7 @@ const Hero = () => {
             href="mailto:calvindanyalson@gmail.com"
             className={`${Poppins.PoppinsMedium.className} text-default flex items-center gap-2`}
           >
-            <EmailIcon className="text-default" /> calvindanyalson@gmail.com
+            <EmailIcon className="text-default" /> calvindany1102@gmail.com
           </Link>
 
           <Link
