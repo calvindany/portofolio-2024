@@ -145,7 +145,7 @@ const ProjectsDetails = [
     title: "Indo Maju",
     description:
       "This application is an e-commerce application focused on a small and medium-sized building materials store called TB. Indo Maju located in Indonesia.",
-    website: "https://indomaju.cyclic.app/",
+    website: "",
     github: "https://github.com/calvindany/stockedge-app",
     desc1:
       "Users can purchase building materials through this application. There is also an admin feature where the admin can manage product data, transactions with distributors, and purchases made by users.",
