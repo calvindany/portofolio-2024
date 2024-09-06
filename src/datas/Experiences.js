@@ -9,7 +9,7 @@ const Experiences = [
       "Colaborating with team and create user interfaces using HTML, CSS, JavaScript, and Bootstrap"
     ],
     hide: false,
-    order: 6,
+    order: 5,
   },
   {
     company: "Bangkit Academy",
@@ -22,7 +22,7 @@ const Experiences = [
       "Collaborating in a team to develop a vegetable freshness classification application utilizing Google cloud services",
     ],
     hide: false,
-    order: 5,
+    order: 4,
   },
   {
     company: "LepKom",
@@ -33,27 +33,17 @@ const Experiences = [
       "Conducting workshops and performing computer maintenance at Gunadarma University's laboratory.",
     ],
     hide: false,
-    order: 2,
-  },
-  {
-    company: "Taldio",
-    role: "Engineer",
-    monthStart: "Nov 2023",
-    monthEnd: "Apr 2024",
-    description: [
-      "Participating in supporting the development web-based applications with React.js and the .NET Framework",
-      "Conducting research and implementation on deploying websites using Next.js and Golang on Windows Server and improving website performance with React.js",
-    ],
-    hide: false,
     order: 3,
   },
   {
     company: "Taldio",
-    role: "Fullstack Engineer Internship",
-    monthStart: "Apr 2024",
-    monthEnd: "Present",
+    role: "Engineer Internship",
+    monthStart: "Nov 2023",
+    monthEnd: "Ags 2024",
     description: [
-      "Participating in supporting the development of web-based applications using React.js, .NET Framework, Golang, and Next.js",
+      "Participating in supporting the development on web-based applications with React.js, Next.js, .NET Framework, and Golang based on product and design requirements provided",
+      "Implementing clean and maintainable code",
+      "Conducting research and implementation of various technology such as Google Recaptcha, Google Indexing, Next JS and Golang deployment on IIS, and Improving website performance on React.JS"
     ],
     hide: false,
     order: 1,
@@ -69,7 +59,7 @@ const Experiences = [
       "Deploying web-based applications on Windows Server",
     ],
     hide: false,
-    order: 4,
+    order: 2,
   },
 ];
 
