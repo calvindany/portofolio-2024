@@ -20,6 +20,12 @@ const TechStack = [
     height: "80px",
   },
   {
+    path: "/image 14.png",
+    width: "161px",
+    height: "55.52px",
+    radius: "10px",
+  },
+  {
     path: "/image 5.png",
     width: "80px",
     height: "90px",
@@ -43,6 +49,27 @@ const TechStack = [
     path: "/image 9.png",
     width: "100px",
     height: "51.52px",
+  },
+  {
+    path: "/image 10.png",
+    width: "141px",
+    height: "75.52px",
+  },
+  {
+    path: "/image 13.png",
+    width: "171px",
+    height: "85.52px",
+    radius: "10px",
+  },
+  {
+    path: "/image 11.png",
+    width: "100px",
+    height: "100px",
+  },
+  {
+    path: "/image 12.png",
+    width: "141px",
+    height: "75.52px",
   },
 ];
 
