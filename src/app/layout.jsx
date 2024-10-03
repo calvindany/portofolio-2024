@@ -6,14 +6,14 @@ import "./globals.css";
 export const metadata = {
   title: "Calvin Danyalson | Software Engineer",
   description:
-    "I am a student studying Informatics Engineering at Gunadarma University. I enjoy exploring new aspects of software development, particularly in web development. Currently, I'm exploring some frameworks such as Express.js or .NET for backend development. I've also collaborated in teams to develop applications for some programs",
+    "I am a freshgraduate bachelor degree from Informatics Engineering at Gunadarma University. I enjoy exploring new aspects of software development, particularly in web development. Currently, I'm exploring some frameworks such as Express.js, .NET, or Golang for backend development. I've also collaborated in teams to develop applications for some programs",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/tabs.ico" sizes="any" />
-      <body style={{scrollBehavior: 'smooth'}}>
+      <body style={{ scrollBehavior: "smooth" }}>
         <Container maxWidth="xl">
           <NavBar />
           {children}
