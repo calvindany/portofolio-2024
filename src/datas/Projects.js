@@ -4,7 +4,7 @@ const Projects = [
     navigation: "/project/6",
     alt: "Resumid, CV Analyzer Website",
     width: "550px",
-    height: "309.66px",
+    height: "340.66px",
   },
   {
     path: "/batique.png",
