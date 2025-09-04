@@ -387,6 +387,74 @@ const ProjectsDetails = [
       },
     ],
   },
+  {
+    title: "Resumid",
+    description: "Resumid is a decentralized web application that helps users conduct in-depth resume analysis with AI technology.",
+    website: "",
+    github: "",
+    desc1:
+      "The application evaluates each section of a resume with a numerical score, highlights strengths and weaknesses, and provides specific improvement suggestions. These recommendations include examples to enhance clarity and ensure alignment with industry standards.",
+    desc2:
+      "I work as a backend developer, engaging with blockchain technology using Motoko, and integrating with the Gemini API through Express.js.",
+    techstack: [
+      "React JS",
+      "Motoko",
+      "Express JS",
+      "Mongo DB",
+      "ICP Technologies",
+      "Blockchain",
+    ],
+    thumbnail: {
+      path: "/resumid1.png",
+      alt: "Landing Page",
+      width: "550px",
+      height: "309.22px",
+    },
+    galery: [
+      {
+        path: "/resumid1.png",
+        alt: "Landing Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid2.png",
+        alt: "Landing Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid3.png",
+        alt: "Landing Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid4.png",
+        alt: "Wallet Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid5.png",
+        alt: "Upload Resume Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid6.png",
+        alt: "Analyze History Page",
+        width: "550px",
+        height: "309.22px",
+      },
+      {
+        path: "/resumid7.png",
+        alt: "Analyze Result Page",
+        width: "550px",
+        height: "309.22px",
+      },
+    ],
+  },
 ];
 
 export default ProjectsDetails;

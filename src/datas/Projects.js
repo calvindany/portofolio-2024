@@ -1,5 +1,12 @@
 const Projects = [
   {
+    path: "/resumid.png",
+    navigation: "/project/6",
+    alt: "Resumid, CV Analyzer Website",
+    width: "550px",
+    height: "309.66px",
+  },
+  {
     path: "/batique.png",
     navigation: "/project/1",
     alt: "Batique Website",

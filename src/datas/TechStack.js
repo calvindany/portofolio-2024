@@ -57,7 +57,7 @@ const TechStack = [
     radius: "10px",
   },
   {
-    path: "/image 10.png",
+    path: "/image 15.svg",
     width: "141px",
     height: "75.52px",
   },
@@ -66,11 +66,11 @@ const TechStack = [
     width: "100px",
     height: "100px",
   },
-  {
-    path: "/image 12.png",
-    width: "141px",
-    height: "75.52px",
-  },
+  // {
+  //   path: "/image 12.png",
+  //   width: "141px",
+  //   height: "75.52px",
+  // },
 ];
 
 export default TechStack;

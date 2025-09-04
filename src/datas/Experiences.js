@@ -6,10 +6,10 @@ const Experiences = [
     monthEnd: "Dec 2022",
     description: [
       "Designing website user interfaces",
-      "Colaborating with team and create user interfaces using HTML, CSS, JavaScript, and Bootstrap"
+      "Colaborating with team and create user interfaces using HTML, CSS, JavaScript, and Bootstrap",
     ],
     hide: false,
-    order: 5,
+    order: 6,
   },
   {
     company: "Bangkit Academy",
@@ -22,7 +22,7 @@ const Experiences = [
       "Collaborating in a team to develop a vegetable freshness classification application utilizing Google cloud services",
     ],
     hide: false,
-    order: 4,
+    order: 5,
   },
   {
     company: "LepKom",
@@ -33,7 +33,19 @@ const Experiences = [
       "Conducting workshops and performing computer maintenance at Gunadarma University's laboratory.",
     ],
     hide: false,
-    order: 3,
+    order: 4,
+  },
+  {
+    company: "Altitude Solutions",
+    role: "Technical Consultant",
+    monthStart: "Nov 2024",
+    monthEnd: "Present",
+    description: [
+      "Providing technical solutions and customizing Microsoft Business Central ERP modules using AL language according to business process needs.",
+      "Develop and maintain web applications (internal apps and company product) using several technologies such as Vue, .NET, React TS, Nest JS or mobile applications using Flutter, integrated with the Microsoft Business Central platform.",
+    ],
+    hide: false,
+    order: 1,
   },
   {
     company: "Taldio",
@@ -43,10 +55,10 @@ const Experiences = [
     description: [
       "Participating in supporting the development on web-based applications with React.js, Next.js, .NET Framework, and Golang based on product and design requirements provided",
       "Implementing clean and maintainable code",
-      "Conducting research and implementation of various technology such as Google Recaptcha, Google Indexing, Next JS and Golang deployment on IIS, and Improving website performance on React.JS"
+      "Conducting research and implementation of various technology such as Google Recaptcha, Google Indexing, Next JS and Golang deployment on IIS, and Improving website performance on React.JS",
     ],
     hide: false,
-    order: 1,
+    order: 2,
   },
   {
     company: "Coding.ID",
@@ -59,7 +71,7 @@ const Experiences = [
       "Deploying web-based applications on Windows Server",
     ],
     hide: false,
-    order: 2,
+    order: 3,
   },
 ];
 
